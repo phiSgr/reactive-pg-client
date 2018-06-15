@@ -59,7 +59,7 @@
   </developers>
 
   <properties>
-    <stack.version>3.5.2</stack.version>
+    <stack.version>3.6.0-SNAPSHOT</stack.version>
     <jmh.version>1.19</jmh.version>
     <docs.dir>${project.basedir}/src/main/docs</docs.dir>
     <generated.dir>${project.basedir}/src/main/generated</generated.dir>
@@ -127,6 +127,11 @@
       <groupId>io.vertx</groupId>
       <artifactId>vertx-lang-kotlin</artifactId>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-lang-kotlin-coroutines</artifactId>
+      <version>3.6.0-SNAPSHOT</version>
     </dependency>
     <!--
     <dependency>
